@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team QR Scanner</title>
+
+<script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+
+<link rel="stylesheet" href="team.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Treasure Hunt Scanner</h1>
+
+  <div class="team-input">
+    <input type="text" id="teamId" placeholder="Enter Team ID" />
+  </div>
+
+  <div id="reader"></div>
+
+  <div class="status-box">
+    <p id="scanStatus">Waiting to scan...</p>
+  </div>
+
+  <button id="startBtn">Start Camera</button>
+  <button id="stopBtn">Stop Camera</button>
+
+</div>
+
+<script src="team.js"></script>
+</body>
+</html>
